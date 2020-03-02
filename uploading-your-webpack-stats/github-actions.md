@@ -4,6 +4,8 @@ description: Upload your build stats to us via GitHub Action
 
 # GitHub Action
 
+### Add your workflow
+
 By far the simplest way to send us your build stats is to utilize [our GitHub Action](https://github.com/packtracker/github-action).
 
 You _can_ set this up in GitHub Actions UI, or you can use the following workflow to get started quickly in your `.github/workflows/push.yml`
@@ -25,5 +27,11 @@ jobs:
 
 ```
 
-Once you have this set up, you'll need to add your `PT_PROJECT_TOKEN` secret via the actions UI.
+### Add your project token
+
+You will also need to add your project token as a secret.
+
+![Navigate to your repository settings.](../.gitbook/assets/2020-03-02-at-12.09-pm.png)
+
+![Add a new secret that corresponds with the variable you used in your workflow.](../.gitbook/assets/2020-03-02-at-12.10-pm.png)
 
