@@ -1,0 +1,19 @@
+# Table of contents
+
+* [packtracker.io documentation](README.md)
+* [Creating your first project](creating-your-first-project.md)
+* [Uploading your webpack stats](uploading-your-webpack-stats/README.md)
+  * [GitHub Action](uploading-your-webpack-stats/github-actions.md)
+  * [CircleCI Orb](uploading-your-webpack-stats/circleci-orb.md)
+  * [Webpack Plugin](uploading-your-webpack-stats/webpack-plugin.md)
+  * [Command Line Interface](uploading-your-webpack-stats/with-our-cli.md)
+  * [Common App Platforms](uploading-your-webpack-stats/common-app-platforms/README.md)
+    * [Laravel Mix](uploading-your-webpack-stats/common-app-platforms/laravel-mix.md)
+    * [Webpacker \(with Rails\)](uploading-your-webpack-stats/common-app-platforms/webpacker-with-rails.md)
+    * [Create React App](uploading-your-webpack-stats/common-app-platforms/create-react-app.md)
+* [GitHub Pull Request Checks](github-pull-request-checks/README.md)
+  * [Performance Budgets](github-pull-request-checks/performance-budgets.md)
+  * [Forked Repositories](github-pull-request-checks/forked-repositories.md)
+* [Managing your team](managing-your-team.md)
+* [FAQ](faq.md)
+
