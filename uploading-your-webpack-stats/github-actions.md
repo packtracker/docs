@@ -4,10 +4,6 @@ description: Upload your build stats to us via GitHub Action
 
 # GitHub Action
 
-{% hint style="info" %}
-Our GitHub Action supports vanilla webpack projects and Create React App out of the box.  For other platforms, see platform specific documentation if available, along with how to use our webpack plugin directly.
-{% endhint %}
-
 ### Add your workflow
 
 By far the simplest way to send us your build stats is to utilize [our GitHub Action](https://github.com/packtracker/github-action).
