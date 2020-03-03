@@ -11,6 +11,7 @@
     * [Laravel Mix](uploading-your-webpack-stats/common-app-platforms/laravel-mix.md)
     * [Webpacker \(with Rails\)](uploading-your-webpack-stats/common-app-platforms/webpacker-with-rails.md)
     * [Create React App](uploading-your-webpack-stats/common-app-platforms/create-react-app.md)
+    * [Next.js](uploading-your-webpack-stats/common-app-platforms/next.js.md)
 * [GitHub Pull Request Checks](github-pull-request-checks/README.md)
   * [Performance Budgets](github-pull-request-checks/performance-budgets.md)
   * [Forked Repositories](github-pull-request-checks/forked-repositories.md)
