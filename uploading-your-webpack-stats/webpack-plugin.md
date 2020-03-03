@@ -40,11 +40,15 @@ module.exports = {
 If the plugin fails to upload your stats, by default it **will not error out your build** but it will **log output signaling the failure**.  You can force it to fail your build by passing the `fail_build` configuration option or by setting the `PT_FAIL_BUILD` environment variable.
 {% endhint %}
 
-If your are using Webpacker for Ruby on Rails or Laravel Mix, you can reference the following documentation for a more relevant configuration example.
+If your are using Webpacker for Ruby on Rails, Laravel Mix, or Next.js you can reference the following documentation for a more relevant configuration example.
 
 {% page-ref page="common-app-platforms/webpacker-with-rails.md" %}
 
 {% page-ref page="common-app-platforms/laravel-mix.md" %}
+
+{% page-ref page="common-app-platforms/next.js.md" %}
+
+
 
 Once your configuration is in place, run your webpack build and we'll take care of the rest.
 
