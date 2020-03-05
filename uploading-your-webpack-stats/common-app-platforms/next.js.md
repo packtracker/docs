@@ -21,6 +21,8 @@ module.exports = {
 
 Then, anytime you run `yarn build` and `isCI` is true, it will attempt to report your stats to our service. You will likely want to run this reporting **only in your CI** on every push, so make sure you put safeguards to ensure this.  Additionally, do not forget to provide your project token, as stated [in the plugin documentation](../webpack-plugin.md).
 
+[Example Next.js project](https://github.com/packtracker/test-next/) using a customized [`next.config.js`](https://github.com/packtracker/test-next/blob/master/next.config.js) with a [GitHub Action workflow](https://github.com/packtracker/test-next/blob/master/.github/workflows/push.yml) to report on every push.
+
 For more information about all the configuration options and concerns in using the webpack plugin, see our documentation.
 
 {% page-ref page="../webpack-plugin.md" %}
