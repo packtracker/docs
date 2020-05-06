@@ -15,6 +15,7 @@
 * [GitHub Pull Request Checks](github-pull-request-checks/README.md)
   * [Performance Budgets](github-pull-request-checks/performance-budgets.md)
   * [Forked Repositories](github-pull-request-checks/forked-repositories.md)
+  * [Multi-project repositories](github-pull-request-checks/multi-project-repositories.md)
 * [Managing your team](managing-your-team.md)
 * [FAQ](faq.md)
 
