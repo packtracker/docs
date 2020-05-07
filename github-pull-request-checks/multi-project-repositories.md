@@ -34,7 +34,7 @@ Once you have correctly set up reporting for each project using the project toke
 
 If you have done everything correctly, you should see multiple projects report their GitHub Checks successfully
 
-![Reporting for both the test-cra3-mono project and the test-next-mono project](../.gitbook/assets/image.png)
+![Reporting for both the test-cra3-mono project and the test-next-mono project in a single repository.](../.gitbook/assets/image.png)
 
 ### Example Repository
 
