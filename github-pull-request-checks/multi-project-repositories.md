@@ -24,7 +24,9 @@ Once you have these projects set up, you will need to retrieve the **project tok
 
 Then, you will configure each additional webpack build \(**per project**\) using the project tokens of each project.  You have done this once before with your initial project, you should simply need to repeat these steps.
 
-For illustration, [in my example repository](https://github.com/packtracker/monorepo-test/blob/master/.github/workflows/push.yml), I'm passing unique `PT_PROJECT_TOKEN` environment variables to each build, using independent secrets configured in GitHub.  
+For illustration, [in my example repository](https://github.com/packtracker/monorepo-test/blob/master/.github/workflows/push.yml), I'm passing unique `PT_PROJECT_TOKEN` environment variables to each build, using independent secrets configured in GitHub.
+
+Additionally, you may also need to specify each project's root directory if you are using our automated stat reporter \(like GitHub Actions or the CircleCI Orb\).  
   
 Once you have correctly set up reporting for each project using the project tokens, you are all done.
 
