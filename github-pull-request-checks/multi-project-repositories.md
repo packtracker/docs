@@ -20,6 +20,12 @@ The first step in this process will be to create a project on packtracker.io for
 
 Once you have these projects set up, you will need to retrieve the **project token** for each project you wish to report on.
 
+### Project re-naming
+
+By default, we use the repository name for the project name.  In most cases this is a sane default. However, in the case of a mono-repository configuration, you need to rename them to match your internal project structure.
+
+![Rename each project to match your internal project structure.](../.gitbook/assets/2020-05-07-at-12.06-pm.png)
+
 ### Reporting
 
 Then, you will configure each additional webpack build \(**per project**\) using the project tokens of each project.  You have done this once before with your initial project, you should simply need to repeat these steps.
