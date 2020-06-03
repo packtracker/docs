@@ -19,7 +19,7 @@ Next, you will add our orb to your configuration by declaring it in your CircleC
 version: 2.1
 
 orbs:
-  packtracker: packtracker/report@2.2.7
+  packtracker: packtracker/report@2.3.0
 ```
 
 {% hint style="info" %}
@@ -66,6 +66,8 @@ By default, this base configuration should _just work_ most of the time.  If you
 | :--- | :--- |
 | `project_root`  | The relative path to the directory containing the `package.json` of your project.  By default, this is the root of your repository.  This can be especially useful for projects that do not live at the root of the repository, like lerna mono-repositories for example. |
 | `webpack_config` | The relative path to your webpack configuration.  By default, it looks in the root directory for `webpack.config.js`. |
+| `selected_resource_class` | Sometimes your Orb might not have enough resources to complete your webpack build, and you might need to specify a higher resource class. |
+| `exclude_assets` | There may be assets you wish to exclude from tracking. This options allows you to pass a [regular expression string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions). When this regular expression matches the name of any asset you are producing, it will exclude it from reporting. This simply gets passed along to the [webpack stats configuration](https://webpack.js.org/configuration/stats/#statsexcludeassets). |
 
 For example, a Ruby on Rails project might look something like this.
 
